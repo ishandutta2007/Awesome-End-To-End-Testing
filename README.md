@@ -1,209 +1,165 @@
-# Awesome-End-To-End-Testing
-
-## Top End-to-End Testing Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Browser Automation, Test Orchestration & AI-Assisted Quality Assurance*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **End-to-End (E2E) Testing**. These tools enable teams to validate complete user workflows across web and mobile applications—simulating real user interactions from UI through backend services to database state, ensuring the system works as a user experiences it .
-
-
-
-**Examples** include BrowserStack, Cypress, Selenium, Sauce Labs, Playwright, Testim, mabl, Applitools, LambdaTest, and Reflect (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom test infrastructure, and transparent test automation—ideal for engineering teams, QA engineers, and developers building reliable CI/CD pipelines without vendor lock-in. The open-source E2E landscape is anchored by **Playwright** (fastest-growing new project adoption), **Cypress** (developer-experience leader), and **Selenium** (largest installed base), with emerging AI-native frameworks like **e2e** (TesterArmy) and **Autonoma** pushing the boundary of agentic testing .
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[BrowserStack](https://www.browserstack.com/)**  
-
-  Cloud testing platform offering real device and browser coverage for manual and automated testing. Includes AI-powered flaky test analysis and debugging insights .
-
-
-
-- **[Sauce Labs](https://saucelabs.com/)**  
-
-  Enterprise continuous testing cloud supporting Selenium, Cypress, Playwright, Appium, and more across thousands of browser/OS combinations and real devices. AI agents assist with test creation and failure analysis .
-
-
-
-- **[Testim (Tricentis)](https://www.testim.io/)**  
-
-  AI-powered UI test automation with self-healing locators. Free Community tier available; paid tiers are custom-quoted. Acquired by Tricentis .
-
-
-
-- **[mabl](https://www.mabl.com/)**  
-
-  Low-code, AI-native E2E testing platform spanning web, mobile, API, and accessibility. Features self-healing and agentic workflows. Pricing is custom-quoted .
-
-
-
-- **[Applitools](https://applitools.com/)**  
-
-  Visual AI testing platform for UI validation and visual regression detection across browsers and devices. Starter tier starts at $969/month with 50 test units .
-
-
-
-- **[LambdaTest](https://www.lambdatest.com/)**  
-
-  Cloud cross-browser testing platform with AI-assisted test execution and smart debugging. Supports Selenium, Cypress, Playwright, and more .
-
-
-
-- **[Reflect (SmartBear)](https://reflect.run/)**  
-
-  No-code automation with self-healing capabilities. API-based integration allows invocation from coding agents. Credit-based pricing with mobile tests consuming 5x web credits .
-
-
-
-- **[QA Wolf](https://www.qawolf.com/)**  
-
-  Managed E2E testing service that outputs real Playwright code committed to your repository—avoiding vendor lock-in. Credit-based usage pricing with a fully managed tier .
-
-
-
-- **[Rainforest QA](https://www.rainforestqa.com/)**  
-
-  AI-assisted testing platform designed for fast release cycles, combining automated execution with human review for edge cases .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Playwright](https://github.com/microsoft/playwright)**  
-
-  Microsoft's E2E testing framework with native cross-browser support (Chromium, Firefox, WebKit), auto-waiting, built-in test runner, and out-of-the-box parallelization. Trace Viewer provides time-travel debugging with full DOM snapshots and network logs. The framework most new E2E suites start with in 2026 . Best for new projects and speed-critical CI pipelines.
-
-
-
-- **[Cypress](https://github.com/cypress-io/cypress)**  
-
-  Developer-experience-first E2E framework with time-travel debugging, automatic screenshots on failure, and an interactive UI. Historically Chromium-only but cross-browser support has improved. JavaScript/TypeScript only. Best for teams that value DX and have existing Cypress suites . 48k+ stars.
-
-
-
-- **[Selenium](https://github.com/SeleniumHQ/selenium)**  
-
-  The oldest and most language-agnostic browser automation framework, with bindings for Java, Python, C#, Ruby, JavaScript, and more. Largest installed base but slower and less feature-rich than modern alternatives. Still the standard for legacy suites and non-JS teams . Best for established enterprises with mixed-language stacks.
-
-
-
-- **[e2e (TesterArmy)](https://github.com/tester-army/e2e)**  
-
-  AI-enhanced E2E framework for web and mobile (TypeScript, Apache-2.0). Hybrid "AI + code" model: use `agent.act()` with natural language for dynamic UIs, and traditional locators/assertions where precision matters. **Unique replay mechanism**: if the UI hasn't changed, cached actions execute without calling the model—dramatically reducing CI token costs. 9,000+ stars, 238k weekly npm downloads . Best for teams wanting AI assistance without sacrificing stability or budget.
-
-
-
-- **[Autonoma](https://github.com/Autonoma-AI/autonoma)**  
-
-  Agentic E2E testing platform where AI agents navigate your app in a real browser on every PR. Reads your codebase, generates natural-language tests, creates isolated preview environments, and self-heals when UI moves. No test code required. Open-source and self-hostable . Best for teams that want zero-maintenance E2E coverage on every pull request.
-
-
-
-- **[Appium](https://github.com/appium/appium)**  
-
-  The de facto standard for cross-platform mobile E2E testing (iOS, Android, Windows). Language-agnostic with a large ecosystem. Pairs with real device clouds for production-grade mobile testing .
-
-
-
-- **[WebdriverIO](https://github.com/webdriverio/webdriverio)**  
-
-  Node.js-based test automation framework with full WebDriver protocol control. Strong for teams needing fine-grained browser control and a mature ecosystem alongside or instead of Cypress/Playwright .
-
-
-
-- **[Robot Framework](https://github.com/robotframework/robotframework)**  
-
-  Keyword-driven test automation framework with readable syntax. Ideal for mixed-skill teams where testers prefer natural-language-like test definitions over code. Extensible via Python libraries .
-
-
-
-- **[Cucumber](https://github.com/cucumber/cucumber-js)**  
-
-  BDD framework using Gherkin syntax for acceptance testing. Bridges the gap between business stakeholders and technical teams. Often paired with Selenium or Playwright as the execution layer .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Hercules** — Open-source testing agent for UI, API, security, accessibility, and visual validations without code or maintenance .
-
-- **pytest** — Python testing framework widely used for E2E tests when paired with Playwright or Selenium bindings. More tests run daily through pytest than any E2E framework alone .
-
-- **Testcontainers** — Library for running disposable database and service containers in E2E tests, ensuring isolated, reproducible test environments .
-
-- **Frameworks for building custom systems**: Combine **Playwright** as the execution engine with **e2e (TesterArmy)** for AI-assisted handling of dynamic UIs, **Testcontainers** for environment isolation, and **pytest** or **Jest** for test organization. For mobile, pair **Appium** with a self-hosted device farm or cloud grid.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- E2E test suites are expensive to run and maintain; focus on critical user journeys rather than exhaustive coverage .
-
-- AI-driven testing tools carry vendor viability risk (e.g., Octomind's discontinuation in May 2026); prefer code-output tools that keep tests portable in your own repository .
-
-
+# 🧪 Awesome-End-To-End-Testing
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome End-To-End Testing Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-End-To-End-Testing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-End-To-End-Testing?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-End-To-End-Testing/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-End-To-End-Testing?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-End-To-End-Testing/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-End-To-End-Testing/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-End-To-End-Testing"><img src="https://img.shields.io/badge/Maintained%3F-Yes-blue.svg?style=flat-square" alt="Maintained" /></a>
+</p>
 
 ---
 
+## 📌 Executive Summary & SEO Overview
 
+> **A definitive, community-maintained index of End-to-End (E2E) Testing tools, AI-powered Quality Assurance agents, cloud browser grids, and open-source automation frameworks.**  
+> Target Domains: `End-to-End Testing` • `Browser Automation` • `Web & Mobile QA` • `Visual Regression` • `Synthetic Monitoring` • `CI/CD Test Orchestration` • `AI Self-Healing Tests`
 
-**Made for QA engineers, software developers, DevOps teams, and engineering leaders building reliable software delivery pipelines.**  
+**End-to-End (E2E) Testing** validates entire software application flows from end to user interface down to backend databases, microservices, and external third-party integrations. Simulating authentic user behavior ensures critical business flows (such as checkouts, authentications, onboarding, and transactional workflows) perform flawlessly under production-like conditions.
 
-Let's make end-to-end testing more open, resilient, and intelligent.
+---
+
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Managed Cloud Testing Platforms](#️-saas--managed-cloud-testing-platforms)
+- [💻 Open-Source Test Automation Frameworks](#-open-source-test-automation-frameworks)
+- [🧠 Choosing the Right Tool: Architecture & Fit](#-choosing-the-right-tool-architecture--fit)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global automated software testing and quality engineering market is estimated at **$28.5 billion to $35 billion**, projected to expand at an annual compound growth rate (CAGR) of **15%–18%** to exceed **$65+ billion by 2032**. 
+
+The sector displays **moderate to high fragmentation** rather than a winner-take-all monopoly: while legacy enterprise budgets remain concentrated among established device clouds (e.g., Tricentis, BrowserStack, and Sauce Labs), the rapid dominance of open-source engines like Playwright alongside the rise of autonomous AI test agents (self-healing locators, natural language test authoring, and synthetic preview environment runners) has fragmented the ecosystem into specialized, high-growth categories.
+
+---
+
+## ☁️ SaaS & Managed Cloud Testing Platforms
+
+The following table benchmarks category-leading hosted SaaS platforms, cloud device farms, and visual regression solutions. The table is sorted in descending order by **Company Scale (Valuation / Revenue)**.
+
+| 🏷️ Platform | 📝 Description & Core Focus | 🏢 Company Scale (Valuation / Revenue) | 💵 Starting Pricing (Specific Tiers) | 🎁 Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Testim (Tricentis)](https://www.testim.io/)** | 🤖 AI-powered low-code UI and mobile test automation with machine learning locator self-healing and enterprise test governance. | **$4.5B Valuation** <br> (~$500M ARR) | **$450 / month** <br> (Base parallel execution tier; enterprise contracts from ~$10,000/year) | **Free Community Tier:** 1,000 test runs/month; or 14-day fully-featured evaluation trial. |
+| **[BrowserStack](https://www.browserstack.com/)** | 🌐 World's largest real device cloud and cross-browser testing matrix with automated regression (Automate) and visual AI testing (Percy). | **$4.0B Valuation** <br> (~$230M ARR) | **$12.50 / month** <br> (Live Manual, billed annually) or $29/mo (monthly); Automate tier from **$199 / month** | **Percy Free Plan:** 5,000 visual screenshots/month forever; **Live/Automate Trial:** 100 mins automated mobile + 30 mins interactive browser. |
+| **[Reflect (SmartBear)](https://reflect.run/)** | 🔍 Zero-installation, cloud-native web testing engine with generative AI test authoring, visual validation, and developer API dispatch. | **$1.8B+ Valuation** <br> (~$150M–$500M Revenue) | **$99 / month** <br> (Starter credit package); **$450 / month** (Premium tier with 5,000 monthly credits) | **14-day free trial** with full feature access, unlimited test creation, and unlimited team seats. |
+| **[Sauce Labs](https://saucelabs.com/)** | 🧪 Pioneer enterprise continuous testing cloud offering real device infrastructure, emulator farms, error reporting (Backtrace), and Sauce AI. | **~$500M Valuation** <br> (~$80M–$100M Revenue, $272M funded) | **$39 / month** <br> (Live Testing, billed annually) or **$149 / month** (Virtual Device Cloud automated testing) | **28-day free trial:** includes 60 total minutes of automated/live testing across 3 parallel virtual machines with Sauce AI. |
+| **[LambdaTest](https://www.lambdatest.com/)** | ⚡ High-speed AI-assisted cloud testing platform with HyperExecute parallel orchestration and KaneAI agentic test generation. | **$400M Valuation** <br> (~$19M Revenue, $108M funded) | **$15 / month** <br> (Live Interactive Cross-Browser, annual) or **$35 / month** (Web Automation, annual) | **Free Forever Plan:** 60 minutes/month of live testing (10-min sessions), 1 parallel test thread, and 100 screenshot tests/month. |
+| **[mabl](https://www.mabl.com/)** | 🧠 Intelligent low-code continuous testing platform integrating browser, API, mobile, accessibility, and automated regression tracking. | **~$400M Valuation** <br> (~$20M ARR, $76M funded) | **$450 / month** <br> (Starter tier bundling 500 monthly cloud-test runs with unlimited local CLI runs) | **14-day free trial:** includes 500 cloud test executions, unlimited local CLI runs, and low-code test creator access. |
+| **[Applitools](https://applitools.com/)** | 👁️ The industry benchmark for Visual AI testing; identifies layout bugs, visual drift, and cross-browser visual regressions across apps. | **$250M Valuation** <br> (Thoma Bravo acquired; ~$30M–$50M Rev) | **$667 / month** <br> (Starter tier billed annually at ~$8,000/year for 50 Test Units) | **14-day free trial:** up to 50 Test Units (~1,000 page checkpoints or 100,000 component checkpoints). |
+| **[QA Wolf](https://www.qawolf.com/)** | 🐺 Hybrid AI + human managed service providing 80% automated test coverage in Playwright with zero vendor lock-in and zero seat licenses. | **~$175M Valuation** <br> (~$18M ARR, $57M funded) | **$0 base + usage** <br> ($0.01 per AI credit, $0.15 per runner minute); Managed service starts at **~$40 / test / month** | **14-day free trial** on self-serve platform with 100 free runner minutes and full Playwright test export. |
+| **[Rainforest QA](https://www.rainforestqa.com/)** | 🚀 No-code automated testing combined with on-demand human crowd-testing for fast exploratory verification and regression coverage. | **~$80M Valuation** <br> (~$25M ARR, $41M funded) | **$200 / month** <br> (Pay-As-You-Go platform base fee) + $5/hour for automated AI runs ($25/hr crowd-testing) | **Free Essentials Tier:** 5 hours of automated cloud browser testing per month; or 14-day trial with 100 automated test runs. |
+
+---
+
+## 💻 Open-Source Test Automation Frameworks
+
+The following open-source frameworks power custom in-house testing pipelines, CI/CD runners, and headless automation grids. Every project is sorted descending by **GitHub Star Count**, and each badge links directly to the repository's stargazers community page.
+
+1. **[Playwright](https://github.com/microsoft/playwright)** [![Stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers)  
+   🚀 Microsoft's modern standard for end-to-end web testing. Features native multi-browser support (Chromium, Firefox, WebKit), auto-waiting, resilient locators, built-in network mocking, parallel execution, and the interactive Trace Viewer for time-travel DOM inspection. Supports TypeScript, JavaScript, Python, .NET, and Java.
+
+2. **[Puppeteer](https://github.com/puppeteer/puppeteer)** [![Stars](https://img.shields.io/github/stars/puppeteer/puppeteer?style=social&color=white)](https://github.com/puppeteer/puppeteer/stargazers)  
+   🤖 Google Chrome team's headless browser automation library communicating over the Chrome DevTools Protocol (CDP) and WebDriver BiDi. High performance for synthetic monitoring, page scraping, PDF generation, and lightweight E2E validation.
+
+3. **[Cypress](https://github.com/cypress-io/cypress)** [![Stars](https://img.shields.io/github/stars/cypress-io/cypress?style=social&color=white)](https://github.com/cypress-io/cypress/stargazers)  
+   🌲 Developer-centric testing framework running directly in the browser runtime loop. Renowned for its DX (developer experience), real-time reloads, automatic snapshot debugging, and intuitive API for front-end application verification in JavaScript/TypeScript.
+
+4. **[Selenium](https://github.com/SeleniumHQ/selenium)** [![Stars](https://img.shields.io/github/stars/SeleniumHQ/selenium?style=social&color=white)](https://github.com/SeleniumHQ/selenium/stargazers)  
+   🌐 The foundational open-source automation standard driving W3C WebDriver specifications. Offers multi-language bindings (Java, Python, C#, Ruby, JavaScript) with an unparalleled global ecosystem and backward compatibility for enterprise test estates.
+
+5. **[Appium](https://github.com/appium/appium)** [![Stars](https://img.shields.io/github/stars/appium/appium?style=social&color=white)](https://github.com/appium/appium/stargazers)  
+   📱 The cross-platform mobile automation standard for native, hybrid, and mobile-web apps across iOS, Android, and desktop operating systems. Plugs directly into real-device farms and emulators using standard WebDriver endpoints.
+
+6. **[Detox](https://github.com/wix/Detox)** [![Stars](https://img.shields.io/github/stars/wix/Detox?style=social&color=white)](https://github.com/wix/Detox/stargazers)  
+   ⚡ Gray-box end-to-end testing and automation library for React Native and native mobile applications. Synchronizes with app internal threads to eliminate flakiness in mobile CI pipelines.
+
+7. **[Robot Framework](https://github.com/robotframework/robotframework)** [![Stars](https://img.shields.io/github/stars/robotframework/robotframework?style=social&color=white)](https://github.com/robotframework/robotframework/stargazers)  
+   🤖 Generic Python-based keyword-driven test automation framework. Excellent for cross-functional teams where product owners and manual QA author readable tests while engineers write Python/Java keywords.
+
+8. **[Nightwatch.js](https://github.com/nightwatchjs/nightwatch)** [![Stars](https://img.shields.io/github/stars/nightwatchjs/nightwatch?style=social&color=white)](https://github.com/nightwatchjs/nightwatch/stargazers)  
+   🌙 Integrated Node.js end-to-end testing framework with native support for W3C WebDriver and Chrome DevTools Protocol. Features a built-in test runner, component testing, and visual regression plugins.
+
+9. **[e2e (TesterArmy)](https://github.com/tester-army/e2e)** [![Stars](https://img.shields.io/github/stars/tester-army/e2e?style=social&color=white)](https://github.com/tester-army/e2e/stargazers)  
+   🧠 AI-native hybrid testing framework for web and mobile (TypeScript, Apache-2.0). Combines deterministic code assertions with dynamic `agent.act()` natural language instructions, featuring smart action replay caching to slash token costs.
+
+10. **[TestCafe](https://github.com/DevExpress/testcafe)** [![Stars](https://img.shields.io/github/stars/DevExpress/testcafe?style=social&color=white)](https://github.com/DevExpress/testcafe/stargazers)  
+    ☕ Pure NodeJS end-to-end testing tool that executes without browser plugins or WebDriver binaries. Features automatic waiting, isolated test execution, and concurrent multi-browser execution.
+
+11. **[WebdriverIO](https://github.com/webdriverio/webdriverio)** [![Stars](https://img.shields.io/github/stars/webdriverio/webdriverio?style=social&color=white)](https://github.com/webdriverio/webdriverio/stargazers)  
+    🔌 Next-gen browser and mobile automation framework for Node.js. Supports both WebDriver and Chrome DevTools Protocol, with plugins for Cucumber, Jasmine, Mocha, and major cloud providers.
+
+12. **[Cucumber.js](https://github.com/cucumber/cucumber-js)** [![Stars](https://img.shields.io/github/stars/cucumber/cucumber-js?style=social&color=white)](https://github.com/cucumber/cucumber-js/stargazers)  
+    🥒 The official JavaScript implementation of Cucumber and Gherkin syntax. Facilitates Behavior-Driven Development (BDD), enabling non-technical stakeholders to write executable human-readable user stories.
+
+13. **[CodeceptJS](https://github.com/codeceptjs/CodeceptJS)** [![Stars](https://img.shields.io/github/stars/codeceptjs/CodeceptJS?style=social&color=white)](https://github.com/codeceptjs/CodeceptJS/stargazers)  
+    🎯 Scenario-driven multi-backend testing framework. Provides a unified, high-level actor API (`I.amOnPage`, `I.click`) that can interchangeably run on top of Playwright, Puppeteer, WebDriverIO, or Appium.
+
+14. **[Gauge](https://github.com/getgauge/gauge)** [![Stars](https://img.shields.io/github/stars/getgauge/gauge?style=social&color=white)](https://github.com/getgauge/gauge/stargazers)  
+    📐 ThoughtWorks' lightweight, cross-platform test automation engine with Markdown-based specifications. Integrates with Java, Python, C#, and JavaScript for maintainable test suites.
+
+15. **[Selenoid](https://github.com/aerokube/selenoid)** [![Stars](https://img.shields.io/github/stars/aerokube/selenoid?style=social&color=white)](https://github.com/aerokube/selenoid/stargazers)  
+    🐳 Lightweight Golang-based implementation of the Selenium hub running browsers inside isolated Docker containers. Consumes a fraction of the RAM of standard Selenium Grids with sub-second browser startup.
+
+16. **[Autonoma](https://github.com/Autonoma-AI/autonoma)** [![Stars](https://img.shields.io/github/stars/Autonoma-AI/autonoma?style=social&color=white)](https://github.com/Autonoma-AI/autonoma/stargazers)  
+    🤖 Agentic autonomous testing system that reads repository pull requests, launches isolated preview environments, navigates workflows in real browsers, and self-heals when user interfaces change.
+
+---
+
+## 🧠 Choosing the Right Tool: Architecture & Fit
+
+```mermaid
+flowchart TD
+    Start["🎯 What is your primary QA goal?"] --> Q1{"Need managed infrastructure or self-hosted code?"}
+    
+    Q1 -- "Managed Cloud &amp; Real Devices" --> CloudCheck{"Do you require AI test authoring &amp; self-healing?"}
+    CloudCheck -- "Yes: Low-Code / AI-Native" --> CloudAI["🤖 Testim • mabl • Reflect"]
+    CloudCheck -- "No: Pure Cloud Grid / High Concurrency" --> CloudGrid["🌐 BrowserStack • Sauce Labs • LambdaTest"]
+    CloudCheck -- "Full Managed White-Glove" --> CloudManaged["🐺 QA Wolf • Rainforest QA"]
+    
+    Q1 -- "Self-Hosted / Open-Source" --> OSCheck{"What platform are you testing?"}
+    OSCheck -- "Web Apps (Modern)" --> WebChoice["⚡ Playwright (Fastest, Cross-browser) • Cypress (DX)"]
+    OSCheck -- "Native / Hybrid Mobile" --> MobileChoice["📱 Appium • Detox (React Native)"]
+    OSCheck -- "Mixed Enterprise / BDD" --> BDDChoice["🥒 Cucumber • Robot Framework • CodeceptJS"]
+    OSCheck -- "AI Autonomous PR Agents" --> AIAgents["🧠 e2e (TesterArmy) • Autonoma"]
+```
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly encouraged! To propose a new framework, update pricing/scale details, or fix inaccuracies:
+
+1. 🍴 **Fork the repository** to your personal GitHub account.
+2. 🌿 **Create a dedicated branch** (`git checkout -b feature/add-new-e2e-tool`).
+3. 📝 **Add or edit entries in `README.md`**:
+   - For SaaS additions: include product name, URL, short summary, company scale (valuation/revenue), specific starting tier price, and specific free tier limits.
+   - For Open-Source additions: include repository name, URL, exact star badge with `style=social&color=white` linking to the stargazers page, and maintain proper descending star sort order.
+4. 🚀 **Commit your changes** (`git commit -m "feat: add {tool_name} to e2e directory"`).
+5. 📤 **Push to your fork** (`git push origin feature/add-new-e2e-tool`).
+6. 🎯 **Open a Pull Request** with a concise explanation.
+
+⭐ **Star this repository** if it helped you navigate the end-to-end testing landscape!
+
+---
+
+## ⚖️ Disclaimer
+
+- This list is independently curated by software engineers for educational and informational purposes. It is not sponsored by any vendor.
+- Company valuations, revenues, and pricing tiers reflect publicly disclosed venture rounds, SEC/registry filings, and vendor pricing pages as of late 2024–2026. Verify current quotes directly with respective vendors.
+- End-to-end tests are resource-intensive: engineering teams should focus automated suites around critical user paths (golden flows) to keep CI/CD pipelines swift and reliable.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for QA Engineers, DevOps Architects &amp; Software Craftspeople worldwide.</b>
+</p>
