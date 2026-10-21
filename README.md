@@ -11,6 +11,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-End-To-End-Testing/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-End-To-End-Testing/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-End-To-End-Testing"><img src="https://img.shields.io/badge/Maintained%3F-Yes-blue.svg?style=flat-square" alt="Maintained" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ---
@@ -31,6 +32,8 @@
 - [💻 Open-Source Test Automation Frameworks](#-open-source-test-automation-frameworks)
 - [🧠 Choosing the Right Tool: Architecture & Fit](#-choosing-the-right-tool-architecture--fit)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [ Star History](#--star-history)
 - [⚖️ Disclaimer](#️-disclaimer)
 
 ---
@@ -149,6 +152,28 @@ Contributions are warmly encouraged! To propose a new framework, update pricing/
 6. 🎯 **Open a Pull Request** with a concise explanation.
 
 ⭐ **Star this repository** if it helped you navigate the end-to-end testing landscape!
+
+---
+
+## 💖 Support & Community
+
+Thank you for visiting and supporting the **Awesome End-To-End Testing** open-source initiative! If you find this curated directory useful for your work or team:
+
+- ⭐ **Star this repository** to help others discover quality engineering resources on GitHub.
+- 🍴 **Fork and share** the repo across your QA guilds, developer channels, and newsletters.
+- ☕ **Support the maintainer**: If you would like to buy a coffee or sponsor continuous research and ecosystem tracking, please visit the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%99%A5-ea4aaa?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+##  Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-End-To-End-Testing&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-End-To-End-Testing&type=date&legend=top-left)
 
 ---
 
