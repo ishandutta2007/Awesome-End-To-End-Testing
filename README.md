@@ -66,7 +66,7 @@ The following table benchmarks category-leading hosted SaaS platforms, cloud dev
 
 ## 💻 Open-Source Test Automation Frameworks
 
-The following open-source frameworks power custom in-house testing pipelines, CI/CD runners, and headless automation grids. Every project is sorted descending by **GitHub Stars_Count**, and each badge links directly to the repository's stargazers community page.
+The following open-source frameworks power custom in-house testing pipelines, CI/CD runners, and headless automation grids. Every project is sorted descending by **GitHub_Stars_Count**, and each badge links directly to the repository's stargazers community page.
 
 1. **[Playwright](https://github.com/microsoft/playwright)** [![Stars](https://img.shields.io/github/stars/microsoft/playwright?style=social&color=white)](https://github.com/microsoft/playwright/stargazers)  
    🚀 Microsoft's modern standard for end-to-end web testing. Features native multi-browser support (Chromium, Firefox, WebKit), auto-waiting, resilient locators, built-in network mocking, parallel execution, and the interactive Trace Viewer for time-travel DOM inspection. Supports TypeScript, JavaScript, Python, .NET, and Java.
