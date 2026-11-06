@@ -30,6 +30,7 @@
 - [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [☁️ SaaS & Managed Cloud Testing Platforms](#️-saas--managed-cloud-testing-platforms)
 - [💻 Open-Source Test Automation Frameworks](#-open-source-test-automation-frameworks)
+- [🤖 Self-hosted AI QA agents](#-self-hosted-ai-qa-agents)
 - [🧠 Choosing the Right Tool: Architecture & Fit](#-choosing-the-right-tool-architecture--fit)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [💖 Support & Community](#-support--community)
@@ -115,6 +116,9 @@ The following open-source frameworks power custom in-house testing pipelines, CI
 
 16. **[Autonoma](https://github.com/Autonoma-AI/autonoma)** [![Stars](https://img.shields.io/github/stars/Autonoma-AI/autonoma?style=social&color=white)](https://github.com/Autonoma-AI/autonoma/stargazers)  
     🤖 Agentic autonomous testing system that reads repository pull requests, launches isolated preview environments, navigates workflows in real browsers, and self-heals when user interfaces change.
+
+17. **[agent-qa](https://github.com/vostride/agent-qa)** [![Stars](https://img.shields.io/github/stars/vostride/agent-qa?style=social&color=white)](https://github.com/vostride/agent-qa/stargazers)
+    🤖 Natural-language web, Android and iOS QA with persistent memidex memory, validated self-improvement, and CLI/MCP workflows. [FSL-1.1-ALv2](https://github.com/vostride/agent-qa/blob/main/LICENSE.md), including commercial-competition restrictions. Free CLI; model and infrastructure costs are separate.
 
 ---
 
